@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        body {
+            background-color: #b69393;
+        }
+        #overflowTest {
+            background-color: #0d2027;
+            color: white;
+            overflow: scroll;
+            font-size: 100%;
+            padding: 10%;
+            width: 50%;
+            height: 100px;
+            border: #0d2027 2px solid;
+            box-shadow: #0d2027 9px 9px 9px;
+            font-size: 50px;
+            font-family: monospace;
+        }
+
+        #id1,
+        #id2 {
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+        }
+
+        a {
+            font-size: 4vh;
+        }
+        a::after {
+            background-color: aqua;
+        }
+        p {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Overflow</h2>
+
+    <p id="id1">The overflow property controls what happens to content that is too big to fit into an area.</p>
+    <p id="id2">This is an Overflow style</p>
+
+    <div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a
+        scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing
+        elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+        minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
+        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+        delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue
+        nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus
+        legentis in iis qui facit eorum claritatem.</div><br>
+
+        <hr style="float: left;" width="71%;">
+        <p>If you want to read about Marquee Tag you can click this link and read about Marquee Tag.</p>
+
+    <a href="https://www.tutorialspoint.com/html/html_marquees.htm" target="_blank">Click on this link</a><br>
+    
+
+    <marquee
+        style="border: #0d2027 2px solid; color: white;background-color: rgb(26, 15, 36);font-size: 50px;width: 71%;"
+        behavior="scroll" direction="left">Jazakallah For visit my website</marquee>
+
+        <hr style="float: left;" width="71% ">
+</body>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Table-html-css/Overflow.html at master · sword/Table-html-css
